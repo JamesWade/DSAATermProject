@@ -1,9 +1,16 @@
 # DSAATermProject
-Phone directory application using doubly-linked lists
-This project can demonstrate the working of contact book applications and also 
-teach you about data structures like arrays, linked lists, stacks, and queues. 
-Typically, phone book management encompasses searching, sorting, and deleting 
-operations. A distinctive feature of the search queries here is that the user sees 
-suggestions from the contact list after entering each character. You can read the 
-source-code of freely available projects and replicate the same to develop your 
-skills.
+Optimal treaps with priority-changing parameters
+Treaps are a combination of BSTs and heaps. These randomized data structures 
+involve assigning specific priorities to the nodes. You can go for a project that 
+optimizes a set of parameters under different settings. For instance, you can set 
+higher preferences for nodes that are accessed more frequently than others. Here, 
+each access will set off a two-fold process:
+ Choosing a random number
+ Replacing the node’s priority with that number if it is found to be higher than the 
+previous priority
+As a result of this modification, the tree will lose its random shape. It is likely that 
+the frequently-accessed nodes would now be near the tree’s root, hence delivering 
+faster searches. So, experiment with this data structure and try to base your 
+argument on evidence.
+At the end of the project, you can either make an original discovery or even 
+conclude that changing the priority of the node does not deliver much speed.
